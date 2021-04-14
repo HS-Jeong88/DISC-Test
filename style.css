@@ -1,0 +1,47 @@
+@import "reset.css";
+
+button:active{
+    transform: scale(0.90);
+}
+button{
+    all: unset;
+    cursor: pointer;
+    font-size: 100%;
+    color: white;
+    font-weight:bolder;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+label{
+    margin-bottom: 20px;
+}
+input{
+    all: unset;
+    cursor: pointer;
+    font-size: 100%;
+    color: black;
+}
+.headder,
+.footer{
+    height: 50px;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+}
+.middle{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lBtn{
+    left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.rBtn{
+    right: 0%;
+    text-transform: uppercase;
+    text-align: center;
+}
